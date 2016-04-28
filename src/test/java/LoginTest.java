@@ -21,9 +21,8 @@ public void doLogin(){
 	driver.findElement(By.xpath("//*[@id='Email']")).sendKeys("devraj.gemini@gmail.com");
 	driver.findElement(By.xpath("//*[@id='next']")).click();
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	driver.findElement(By.xpath("//*[@id='Passwd']")).sendKeys("apple");
-	
-	
+	driver.findElement(By.xpath("//*[@id='Passwd']")).sendKeys("mango");
+		
 }
 @AfterSuite
 	public void teardown(){
