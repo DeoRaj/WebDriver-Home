@@ -23,7 +23,6 @@ public void doLogin(){
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	driver.findElement(By.xpath("//*[@id='Passwd']")).sendKeys("mango");
 	
-	//test check
 }
 @AfterSuite
 	public void teardown(){
